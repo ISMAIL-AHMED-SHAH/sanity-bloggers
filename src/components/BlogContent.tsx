@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Post } from "../../../types";
+import { Post } from "../../types";
 import Container from "./Container";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/client";
