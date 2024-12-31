@@ -7,7 +7,7 @@ import { BsFacebook, BsYoutube, BsInstagram, BsGithub, BsLinkedin, BsWhatsapp } 
 const Footer = () => {
   return (
     <Container className="w-full p-10 bg-black text-gray-100 flex items-center justify-between">
-      <Logo title="Bloggers" className="text-white" />
+      <Logo title="Orbit'Blogs" className="text-white" />
       <div className="text-gray-300 hidden md:inline-flex items-center gap-7">
         <Link
           href={"https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/"}
