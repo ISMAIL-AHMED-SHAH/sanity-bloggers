@@ -19,11 +19,11 @@ const AboutPage = () => {
         <div className="p-8 space-y-6">
           {/* Introduction */}
           <div>
-            <h2 className="text-2xl font-semibold text-gray-800">Hello, I'm Ismail Ahmed Shah!</h2>
+            <h2 className="text-2xl font-semibold text-gray-800">Hello, I&apos;m Ismail Ahmed Shah!</h2>
             <p className="mt-2 text-gray-600 leading-relaxed">
               With a diverse career spanning multiple industries and a profound passion for coding, 
               I bring a unique perspective to web development. I specialize in creating intuitive, 
-              user-friendly interfaces that deliver engaging experiences. Currently, I’m on a journey 
+              user-friendly interfaces that deliver engaging experiences. Currently, I&apos;m on a journey 
               to become a full-stack developer, exploring the vast possibilities of modern technology.
             </p>
           </div>
@@ -65,7 +65,7 @@ const AboutPage = () => {
         {/* Footer Section */}
         <div className="bg-gray-100 text-center py-4">
           <p className="text-gray-600 text-sm">
-            Let's connect and create something amazing together! 🚀
+            Let&apos;s connect and create something amazing together! 🚀
           </p>
         </div>
       </div>
