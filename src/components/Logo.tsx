@@ -9,7 +9,7 @@ const Logo = ({ title, className }: Props) => {
   return (
     <Link href={"/"}>
       <h1 className={`text-3xl font-extrabold ${className}`}>
-        {title || "Orbit'Blog"}
+        {title || "Orbit'Blogs"}
       </h1>
     </Link>
   );
