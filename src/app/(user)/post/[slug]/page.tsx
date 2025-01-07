@@ -8,11 +8,12 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
+  FaWhatsappSquare,
 } from "react-icons/fa";
 import Link from "next/link";
 import { PortableText } from "@portabletext/react";
 import { RichText } from "@/components/RichText";
-import { BsWhatsapp } from "react-icons/bs";
+
 
 interface Props {
   params: {
@@ -72,7 +73,7 @@ const SlugPage = async ({ params: { slug } }: Props) => {
           href={"https://wa.me/+923322241405"}
           target="blank"
         >
-          <BsWhatsapp className="text-2xl hover:text-green-500 duration-200 cursor-pointer" />
+          <FaWhatsappSquare className="text-4xl rounded-full hover:text-green-500 duration-200 cursor-pointer" />
         </Link>
             <Link
               href={"https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/"}
