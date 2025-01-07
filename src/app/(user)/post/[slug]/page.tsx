@@ -8,11 +8,11 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedin,
-  FaYoutube,
 } from "react-icons/fa";
 import Link from "next/link";
 import { PortableText } from "@portabletext/react";
 import { RichText } from "@/components/RichText";
+import { BsWhatsapp } from "react-icons/bs";
 
 interface Props {
   params: {
@@ -68,36 +68,35 @@ const SlugPage = async ({ params: { slug } }: Props) => {
             {post?.author?.description}
           </p>
           <div className="flex items-center gap-3">
+          <Link
+          href={"https://wa.me/+923322241405"}
+          target="blank"
+        >
+          <BsWhatsapp className="text-2xl hover:text-green-500 duration-200 cursor-pointer" />
+        </Link>
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
-              target="blank"
-              className="w-10 h-10 bg-red-600 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/"}
               target="blank"
               className="w-10 h-10 bg-gray-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
               <FaGithub />
             </Link>
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/"}
               target="blank"
               className="w-10 h-10 bg-[#3e5b98] text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
               <FaFacebookF />
             </Link>
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"https://www.instagram.com/ahmedshahismail?igsh=YzljYTk1ODg3Zg=="}
               target="blank"
               className="w-10 h-10 bg-[#bc1888] text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >
               <FaInstagram />
             </Link>
             <Link
-              href={"https://www.youtube.com/channel/UChkOsij0dhgft0GhHRauOAA"}
+              href={"https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/"}
               target="blank"
               className="w-10 h-10 bg-blue-500 text-white text-xl rounded-full flex items-center justify-center hover:bg-[#5442ae] duration-200"
             >

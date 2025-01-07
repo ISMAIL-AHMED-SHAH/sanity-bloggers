@@ -15,7 +15,7 @@ const Footer = () => {
         >
           <BsLinkedin className="text-2xl hover:text-blue-500 duration-200" />
         </Link>
-        <Link href={"https://github.com/ISMAIL-AHMED-SHAH"} target="blank">
+        <Link href={"https://www.linkedin.com/in/ismail-ahmed-shah-2455b01ba/"} target="blank">
           <BsGithub className="text-2xl hover:text-gray-400 duration-200 cursor-pointer" />
         </Link>
         <Link
