@@ -24,7 +24,7 @@ const AboutPage = () => {
               With a diverse career spanning multiple industries and a profound passion for coding, 
               I bring a unique perspective to web development. I specialize in creating intuitive, 
               user-friendly interfaces that deliver engaging experiences. Currently, I&apos;m on a journey 
-              to become a full-stack developer, exploring the vast possibilities of modern technology.
+              to become a full-stack developer, and Agentic AI expert exploring the vast possibilities of modern cutting edge technology.
             </p>
           </div>
 
@@ -38,7 +38,11 @@ const AboutPage = () => {
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-3 h-3 bg-blue-500 rounded-full mr-2"></span>
-                TypeScript
+                HTML & CSS
+              </li>
+              <li className="flex items-center text-gray-700">
+                <span className="w-3 h-3 bg-blue-500 rounded-full mr-2"></span>
+                TypeScript (JavaScript)
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-3 h-3 bg-blue-500 rounded-full mr-2"></span>
@@ -46,7 +50,11 @@ const AboutPage = () => {
               </li>
               <li className="flex items-center text-gray-700">
                 <span className="w-3 h-3 bg-blue-500 rounded-full mr-2"></span>
-                JavaScript
+                Python
+              </li>
+              <li className="flex items-center text-gray-700">
+                <span className="w-3 h-3 bg-blue-500 rounded-full mr-2"></span>
+                Agentic AI
               </li>
             </ul>
           </div>
